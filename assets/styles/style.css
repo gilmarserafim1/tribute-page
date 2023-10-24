@@ -1,28 +1,29 @@
 #main {
-    margin: 2rem .5rem;
-    padding-top: 2rem;
     background-color: #EEEEEE;
-    text-align: center;
-    border-radius: 10px;
 }
 
-#title {
-    font-size: 3rem;
-    font-weight: 500;
-    color: #333;
+#main header {
+    background: repeating-linear-gradient(
+        90deg,
+        #000,
+        #000 10%,
+        #fff 10%,
+        #fff 20%
+    );
+    padding: 2rem 5rem;
+    border: 3px solid yellow;
+}
+
+#title, #subtitle{
+    font-size: 5rem;
+    font-weight: bolder;
+    color: red;
     margin-bottom: 1rem;
-}
-
-#subtitle {
-    font-size: 1rem;
-    font-weight: 300;
-    color: #333;
-    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 #img-div {
-    background-color: white;
-    margin: 1rem;
+    margin: 1rem 2rem;
     padding: 1rem 0;
 }
 
@@ -36,37 +37,41 @@
 #img-caption {
     color: #333;
     margin-top: 1rem;
+    text-align: center;
 }
 
-#tribute-info h3 {
-    margin: 3rem 0;
+.tribute-info-group {
+    margin: 3rem;
+}
+
+.tribute-info-group h3 {
+    margin: 2rem 0;
     color: #333;
+    text-align: center;
 }
 
-#tribute-info ul {
-    width: 50%;
-    text-align: left;
-    margin: 0 auto;
-    color: #333;
+.tribute-info-group p {
+    margin: .5rem 0;
 }
 
-#tribute-info li {
+.tribute-info-group ul {
+    padding-left: 4rem;
+}
+
+.tribute-info-group li {
     margin: 1rem 0;
 }
 
-#tribute-info span {
-    font-weight: bold;
-}
 
-blockquote {
-    width: 75%;
-    font-style: italic;
-    margin: 2rem 0;
-}
-
-#link {
+#tribute-link {
     font-size: 1.15rem;
     font-weight: bold;
     color: #333;
     padding-bottom: 2rem;
+    text-decoration: none;
+}
+
+#link {
+    margin-top: 8rem;
+    text-align: center;
 }
